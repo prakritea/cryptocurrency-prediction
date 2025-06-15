@@ -1,18 +1,10 @@
-DataCollection.ipynb
-       ↓
-PastSampler.ipynb / DataProcessor.ipynb → DataProcessor.py
-       ↓
-Baseline.ipynb → LinearRegression.ipynb
-       ↓
-Choose Model(s):
-→ CNN.py + Plot_CNN.ipynb
-→ GRU.py + Plot_GRU.ipynb
-→ LSTM.py + Plot_LSTM.ipynb
-→ GAN.ipynb
-→ GRU_WF.py
-       ↓
-BoxPlot.ipynb / PlotTest.ipynb
-       ↓
-PlotRegularization.ipynb / .py
-       ↓
-Prediction.py
+🛠️ How It Works
+Collect historical Bitcoin price data from Poloniex.
+
+Preprocess data into suitable sequences.
+
+Train deep learning models on these sequences to learn temporal dependencies.
+
+Evaluate model performance on unseen data using MSE.
+
+Plot results using Jupyter notebooks.
